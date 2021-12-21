@@ -1,0 +1,10 @@
+archivo= open('ciclos.txt', 'a')
+archivo.write('Hola')
+archivo.close()
+#archivo= open('ciclos.txt', 'r')
+#mensaje = archivo.read()
+archivo= open('ciclos.txt')
+mensaje = archivo.readlines()
+print(mensaje)
+archivo.close()
+

@@ -1,0 +1,56 @@
+USE robot;
+CREATE TABLE tarjeta(
+	numero INT NOT NULL AUTO_INCREMENT,
+	PRIMARY KEY(numero),
+	motor_0 VARCHAR(4),
+    motor_1 VARCHAR(4),
+    motor_2 VARCHAR(4),
+    motor_3 VARCHAR(4),
+    motor_4 VARCHAR(4),
+    motor_5 VARCHAR(4),
+    motor_6 VARCHAR(4)
+);
+
+variables de la clase proyecto
+self.value_pres = StringVar()
+self.mode = IntVar()
+value_mot 0-6 = StringVar()
+self.auto = IntVar()
+self.envi=""
+self.isRun=True
+self.veces=0
+
+funciones de la clase proyecto
+__init__
+//def askQuit(self):
+//fn_estadoconfigure(self,estado):
+//def fn_estadorun(self,estado):
+????? def limpiaGrid(self): ----
+//def llenaDatos(self):
+//def fsave_position(self):
+//def fEliminar(self):
+//def fModificar(self):
+//def guardarcambios(self):
+
+//def fEnviaMot0(self):
+//def fEnviaMot1(self):
+//def fEnviaMot2(self):
+//def fEnviaMot3(self):
+//def fEnviaMot4(self):
+//def fEnviaMot5(self):
+//def fEnviaMot6(self):
+
+//def envi_motors(self):
+//def agrega_ciclo(self):
+//def borrar_ciclo(self):
+//def fstart_ciclo(self):
+
+//??def fpausa(self):
+//def fncontinue(self):
+//def fstop_ciclo(self):
+//def fnMode(self):
+def create_widgets(self):
+
+
+BUscar
+get_children
